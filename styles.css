@@ -1,0 +1,11 @@
+#square {
+	background-color: red;
+	height: 16px;
+	width: 16px;
+}
+
+#container {
+	display: inline-block;
+	width: 256px;
+	height: 256px;
+}
