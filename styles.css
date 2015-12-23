@@ -1,11 +1,29 @@
-#square {
-	background-color: red;
-	height: 16px;
-	width: 16px;
+body {
+	background-color: gray;
 }
 
+
+
 #container {
-	display: inline-block;
-	width: 256px;
-	height: 256px;
+	background-color:black;
+	width:500px;
+	height:500px;
+	position:relative;
+	margin:20px auto 0px auto;
+	border-style:solid;
+	border-width:10px 10px 80px 10px;
+	border-radius:15px;
+	border-color:cc0000;
+}
+
+#reset {
+	display: block;
+	margin: 0 auto;
+}
+
+.screen {
+	background-color: #ffffcc;
+	width:31.25px;
+	height:31.25px;
+	float:left;
 }
